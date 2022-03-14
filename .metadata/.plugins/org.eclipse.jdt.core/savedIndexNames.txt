@@ -76,7 +76,6 @@ INDEX VERSION 1.131+C:\Users\Jane\Desktop\RabbitMQ\SpringBoot\.metadata\.plugins
 1257217670.index
 4181974505.index
 166027389.index
-2718873461.index
 1946831822.index
 432452911.index
 512968322.index
