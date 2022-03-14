@@ -1,0 +1,17 @@
+package ru.jb.rabbitmq.consumers;
+
+import org.springframework.amqp.rabbit.annotation.RabbitListener;
+import org.springframework.stereotype.Service;
+
+import ru.jb.rabbitmq.entities.Person;
+
+@Service
+public class RabbitMQCousumer {
+	
+	@RabbitListener(queues = "Mobile")
+	public void getMessage(Person person) {
+		System.out.println(person.getName());
+		
+	}
+
+}
